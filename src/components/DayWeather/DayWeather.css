@@ -1,0 +1,23 @@
+.day-container {
+  padding: 0.5em;
+}
+
+/* .day {
+  background: #ffffff26;
+  padding: 1em;
+  border-radius: 34px;
+} */
+
+.day-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+svg#lol {
+  /* transform: scaleX(1.5); */
+}
+
+#termometer {
+  width: 0.75em;
+  margin-right: 0.5em;
+}

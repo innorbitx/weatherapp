@@ -1,0 +1,19 @@
+.temperature-container {
+  text-align: center;
+  margin: 3em 1em;
+}
+
+.temperature {
+  font-size: 4em;
+}
+
+.temperature,
+.location {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.temperature,
+.location {
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+.forecast-container {
+  /* margin: 1em; */
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-flow: column;
+  overflow: auto;
+  gap: 1em;
+  scrollbar-width: none; /* Firefox */
+}
+
+.forecast::-webkit-scrollbar {
+  display: none;
+}
+
+.forecast-card {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+}
