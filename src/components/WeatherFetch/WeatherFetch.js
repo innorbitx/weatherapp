@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 import Forecast from '../Forecast/Forecast';
-import WeatherChart from '../WeatherChart/WeatherChart';
+// import WeatherChart from '../WeatherChart/WeatherChart';
 import './WeatherFetch.css';
 
 const WeatherFetch = () => {
