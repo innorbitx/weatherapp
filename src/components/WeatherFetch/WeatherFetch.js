@@ -15,7 +15,7 @@ const WeatherFetch = () => {
     setIsLoading(true);
     await axios
       .get(
-        'http://api.ipstack.com/check?access_key=5bc54110014bc25553a9fa67d97d114b'
+        'https://api.ipstack.com/check?access_key=5bc54110014bc25553a9fa67d97d114b'
       )
       .then((response) => {
         setData(response.data);
